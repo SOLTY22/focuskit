@@ -1,0 +1,15 @@
+export default function ContactPage() {
+  return (
+    <main className="min-h-screen bg-black text-white p-8 max-w-3xl mx-auto">
+      <h1 className="text-3xl font-bold mb-4">Contact</h1>
+
+      <p className="text-zinc-400">
+        For any questions or support, contact us at:
+      </p>
+
+      <p className="mt-2 text-white font-medium">
+        contact@focuskit.app
+      </p>
+    </main>
+  )
+}

@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="w-full px-6 py-4 bg-zinc-900 text-white flex gap-6">
+    <nav className="w-full px-6 py-4 bg-zinc-900 text-white flex flex-wrap items-center gap-6">
       <a href="/" className="font-bold">
         FocusKit
       </a>
@@ -17,6 +17,20 @@ export default function Navbar() {
         className="text-zinc-400 hover:text-white"
       >
         Tasks
+      </a>
+
+      <a
+        href="/privacy"
+        className="text-zinc-400 hover:text-white"
+      >
+        Privacy
+      </a>
+
+      <a
+        href="/contact"
+        className="text-zinc-400 hover:text-white"
+      >
+        Contact
       </a>
     </nav>
   )
