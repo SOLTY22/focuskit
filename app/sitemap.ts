@@ -3,7 +3,15 @@ import type { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://focuskit-wheat.vercel.app/',
+      url: 'https://focuskit-wheat.vercel.app',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://focuskit-wheat.vercel.app/tools/pomodoro',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://focuskit-wheat.vercel.app/tools/tasks',
       lastModified: new Date(),
     },
     {
@@ -16,14 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: 'https://focuskit-wheat.vercel.app/contact',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://focuskit-wheat.vercel.app/tools/pomodoro',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://focuskit-wheat.vercel.app/tools/tasks',
       lastModified: new Date(),
     },
     {
