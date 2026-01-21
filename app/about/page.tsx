@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'About FocusKit',
+  description:
+    'Learn more about FocusKit and how it helps you stay focused and productive.',
+}
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-black text-white p-8 max-w-3xl mx-auto">

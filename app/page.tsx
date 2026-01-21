@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'FocusKit – Simple Productivity Tools',
+  description:
+    'FocusKit helps you stay productive using tools like Pomodoro timer and task management.',
+}
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center gap-6">

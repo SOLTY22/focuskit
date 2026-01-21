@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'Pomodoro Timer – FocusKit',
+  description:
+    'Use the Pomodoro timer to stay focused and improve productivity with timed work sessions.',
+}
 'use client'
 
 import { useEffect, useState } from 'react'

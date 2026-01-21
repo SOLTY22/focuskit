@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'Task Manager – FocusKit',
+  description:
+    'Manage your daily tasks and stay organized with FocusKit task manager.',
+}
 'use client'
 
 import { useEffect, useState } from 'react'
