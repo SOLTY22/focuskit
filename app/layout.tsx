@@ -19,7 +19,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Manifest */}
         <link rel="manifest" href="/manifest.json" />
+
+        {/* Google AdSense – مرة واحدة فقط */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6627537476082218"
+          crossOrigin="anonymous"
+        />
+
+        {/* Service Worker */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
